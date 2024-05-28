@@ -1,0 +1,1 @@
+﻿function Add-Numbers([int]$a, [int]$b) {    $sum = $a + $b    return $sum}$result = Add-Numbers -a 5 -b 3Write-Host $result
