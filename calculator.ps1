@@ -8,6 +8,11 @@ function Multiply-Numbers([int]$a, [int]$b) {
     return $product
 }
 
+function SubStract-Numbers([int]$a, [int]$b) {
+    $difference = $a - $b
+    return $difference
+}
+
 $resultOfSum = Add-Numbers -a 5 -b 3
 Write-Host $resultOfSum
 
